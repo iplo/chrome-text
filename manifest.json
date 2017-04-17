@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome Text",
+  "short_name": "Chrome Text",
+  "description": "Chrome Text is a chrome app text editor.",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+
+  "icons": {
+    "16": "assets/icon.png",
+    "128": "assets/icon.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+
+  "web_accessible_resources": [
+    "http://*/*",
+    "https://*/*",
+    "images/*.png",
+    "style/double-rainbow.css",
+    "script/double-rainbow.js",
+    "script/main.js",
+    "templates/*"
+  ],
+
+  "content_security_policy": "script-src 'self' 'sha256-WOdSzz11/3cpqOdrm89LBL2UPwEU9EhbDtMy2OciEhs='"
+}

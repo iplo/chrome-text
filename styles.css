@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.webkit-region {
+	-webkit-app-region: drag;
+	height: 45px;
+	width: 100%;
+	background: #fff;
+	margin: 0;
+}
